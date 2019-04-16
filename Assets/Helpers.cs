@@ -1,0 +1,33 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Helpers : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public enum DiceType
+    {
+        D4,
+        D6,
+        D10,
+        D20,
+        None
+    }
+        
+    public enum SkillType
+    {
+        EnemyDamage,
+        PlayerHeal
+    }
+}
